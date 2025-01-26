@@ -1,0 +1,85 @@
+.user-table 
+{
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+  }
+  
+  .user-table th, .user-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+    
+  }
+  
+  .user-table th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  
+  .edit-btn, .delete-btn {
+    padding: 5px 10px;
+    margin: 2px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .edit-btn {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .edit-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .delete-btn {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .delete-btn:hover {
+    background-color: #d32f2f;
+  }
+  fieldset{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: none;
+    background-color:#54ecfd;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
+}
+fieldset:hover{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: none;
+    background-color:#54ecfd;
+    box-shadow: 0 0 40px rgba(0, 242, 197, 0.788);
+}
+
+label{
+    margin-top: .5rem;
+}
+.form-row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+input,select{
+    width: 100%;
+    padding: .4rem;
+    border-radius: 4px;
+    border: 1px solid rgba(165, 238, 211, 1);
+}
+
+input[type="radio"],input[type="checkbox"]{
+    margin-top: .5rem;
+    width: auto;
+}
